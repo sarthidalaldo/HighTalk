@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button'
 import { useSidebarContext } from '@/contexts/sidebar-context'
 import { playlists } from '@/data/playlists'
 import { subscriptions } from '@/data/subscriptions'
-import { ChevronDown, ChevronUp, Clapperboard, Clock, Film, Flame, Gamepad2, History, Hop as Home, Library, Lightbulb, Music2, Newspaper, SquarePlay as PlaySquare, Podcast, Radio, Repeat, Shirt, ShoppingBag, Trophy } from 'lucide-react'
+import { ChevronDown, ChevronUp, Clapperboard, Clock, Flame, History, Hop as Home, Library, Lightbulb, SquarePlay as PlaySquare, Repeat } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { Children, ElementType, useState } from 'react'
@@ -24,7 +24,7 @@ export function Sidebar() {
       </aside>
       {isSmallOpen && <div className='fixed inset-0 z-999 bg-black/50 lg:hidden' onClick={close} />}
       <aside
-        className={`scrollbar-hidden absolute top-0 w-56 flex-col gap-2 overflow-y-auto px-2 pb-4 lg:sticky ${isLargeOpen ? 'lg:flex' : 'lg:hidden'} ${isSmallOpen ? 'z-999 flex max-h-screen bg-white' : 'hidden'}`}
+        className={`scrollbar-hidden absolute top-0 w-56 flex-col gap-2 overflow-y-auto px-2 pb-4 lg:sticky ${isLargeOpen ? 'lg:flex' : 'lg:hidden'} ${isSmallOpen ? 'z-999 flex max-h-screen bg-background' : 'hidden'}`}
       >
         <div className='bg-background sticky top-0 p-2 lg:hidden'>
           <PageHeaderFirstSection />
@@ -134,7 +134,7 @@ function LargeSidebarItem({ isActive = false, IconOrImgUrl, href, title }: Large
     <Button
       asChild
       variant='ghost'
-      className={`hover:bg-accent-foreground hover:text-accent rounded-sm ${isActive ? 'bg-accent font-bold' : ''}`}
+      className={`hover:bg-accent hover:text-accent-foreground rounded-sm ${isActive ? 'bg-accent font-bold' : ''}`}
     >
       <Link href={href} className='flex w-full items-center justify-start'>
         {typeof IconOrImgUrl === 'string' ? (
