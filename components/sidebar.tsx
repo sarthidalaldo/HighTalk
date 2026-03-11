@@ -2,28 +2,7 @@ import { Button } from '@/components/ui/button'
 import { useSidebarContext } from '@/contexts/sidebar-context'
 import { playlists } from '@/data/playlists'
 import { subscriptions } from '@/data/subscriptions'
-import {
-  ChevronDown,
-  ChevronUp,
-  Clapperboard,
-  Clock,
-  Film,
-  Flame,
-  Gamepad2,
-  History,
-  Home,
-  Library,
-  Lightbulb,
-  Music2,
-  Newspaper,
-  PlaySquare,
-  Podcast,
-  Radio,
-  Repeat,
-  Shirt,
-  ShoppingBag,
-  Trophy
-} from 'lucide-react'
+import { ChevronDown, ChevronUp, Clapperboard, Clock, Film, Flame, Gamepad2, History, Hop as Home, Library, Lightbulb, Music2, Newspaper, SquarePlay as PlaySquare, Podcast, Radio, Repeat, Shirt, ShoppingBag, Trophy } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { Children, ElementType, useState } from 'react'
