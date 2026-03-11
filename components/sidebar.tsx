@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button'
 import { useSidebarContext } from '@/contexts/sidebar-context'
 import { playlists } from '@/data/playlists'
 import { subscriptions } from '@/data/subscriptions'
-import { ChevronDown, ChevronUp, Clapperboard, Clock, Flame, History, Hop as Home, Library, Lightbulb, SquarePlay as PlaySquare, Repeat } from 'lucide-react'
+import { ChevronDown, ChevronUp, Clapperboard, Clock, Flame, History, House, Library, Lightbulb, PlaySquare, Repeat } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { Children, ElementType, useState } from 'react'
@@ -17,7 +17,7 @@ export function Sidebar() {
       <aside
         className={`scrollbar-hidden sticky top-0 ml-1 flex flex-col overflow-y-auto ${isLargeOpen ? 'lg:hidden' : 'lg:flex'}`}
       >
-        <SmallSidebarItem IconOrImgUrl={Home} href='/' title='Home' />
+        <SmallSidebarItem IconOrImgUrl={House} href='/' title='Home' />
         <SmallSidebarItem IconOrImgUrl={Repeat} href='/shorts' title='Shorts' />
         <SmallSidebarItem IconOrImgUrl={Clapperboard} href='/subscriptions' title='Subscriptions' />
         <SmallSidebarItem IconOrImgUrl={Library} href='/library' title='Library' />
@@ -30,7 +30,7 @@ export function Sidebar() {
           <PageHeaderFirstSection />
         </div>
         <LargeSidebarSection>
-          <LargeSidebarItem isActive IconOrImgUrl={Home} href='/' title='Home' />
+          <LargeSidebarItem isActive IconOrImgUrl={House} href='/' title='Home' />
           <LargeSidebarItem IconOrImgUrl={Clapperboard} href='/subscriptions' title='Subscriptions' />
         </LargeSidebarSection>
         <Separator className='my-1' />
