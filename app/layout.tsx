@@ -25,10 +25,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <Providers>
-      <html lang='en' suppressHydrationWarning>
-        <body className={`${geistSans.variable} ${geistMono.variable} bg-background antialiased`}>{children}</body>
-      </html>
-    </Providers>
+    <html lang='en' suppressHydrationWarning>
+      <body className={`${geistSans.variable} ${geistMono.variable} bg-background antialiased`}>
+        <Providers>{children}</Providers>
+      </body>
+    </html>
   )
 }
