@@ -82,17 +82,9 @@ export function Sidebar() {
         </LargeSidebarSection>
         <Separator className='my-1' />
         <LargeSidebarSection title='Explore'>
-          <LargeSidebarItem IconOrImgUrl={Flame} title='Trending' href='/trending' />
-          <LargeSidebarItem IconOrImgUrl={ShoppingBag} title='Shopping' href='/shopping' />
-          <LargeSidebarItem IconOrImgUrl={Music2} title='Music' href='/music' />
-          <LargeSidebarItem IconOrImgUrl={Film} title='Movies & TV' href='/movies-tv' />
-          <LargeSidebarItem IconOrImgUrl={Radio} title='Live' href='/live' />
-          <LargeSidebarItem IconOrImgUrl={Gamepad2} title='Gaming' href='/gaming' />
-          <LargeSidebarItem IconOrImgUrl={Newspaper} title='News' href='/news' />
-          <LargeSidebarItem IconOrImgUrl={Trophy} title='Sports' href='/sports' />
-          <LargeSidebarItem IconOrImgUrl={Lightbulb} title='Learning' href='/learning' />
-          <LargeSidebarItem IconOrImgUrl={Shirt} title='Fashion & Beauty' href='/fashion-beauty' />
-          <LargeSidebarItem IconOrImgUrl={Podcast} title='Podcasts' href='/podcasts' />
+          <LargeSidebarItem IconOrImgUrl={Lightbulb} title='Mental Guardrails' href='/mental-guardrails' />
+          <LargeSidebarItem IconOrImgUrl={Flame} title='Productive Workflows' href='/productive-workflows' />
+          <LargeSidebarItem IconOrImgUrl={Library} title='Philosophy' href='/philosophy' />
         </LargeSidebarSection>
       </aside>
     </>
