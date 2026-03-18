@@ -29,7 +29,7 @@ export function PageHeader() {
         <div className={`flex grow ${!showFullWidthSearch && 'max-w-[600px]'}`}>
           <input
             type='search'
-            placeholder='Search'
+            placeholder='Search conversations, topics, creators...'
             className='border-foreground shadow-foreground/20 dark:focus:border-foreground w-full rounded-l-full border px-4 py-1 text-sm shadow-inner outline-none focus:border-blue-500'
           />
           <Button
@@ -79,8 +79,14 @@ export function PageHeaderFirstSection({ hidden = false }: PageHeaderFirstSectio
       <Button onClick={toggle} variant='ghost' size='icon'>
         <Menu />
       </Button>
-      <Link href='/'>
-        <Image src='/logo.png' alt='TylooTube logo' width={75} height={36} priority />
+      <Link href='/' className='flex items-center gap-2'>
+        <div className='flex h-8 w-8 items-center justify-center rounded-lg bg-primary'>
+          <span className='text-sm font-bold text-primary-foreground'>HT</span>
+        </div>
+        <span className='hidden text-base font-semibold tracking-tight sm:block'>
+          <span className='text-primary'>High</span>
+          <span className='text-foreground'>Talk</span>
+        </span>
       </Link>
     </div>
   )

@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button'
 import { useSidebarContext } from '@/contexts/sidebar-context'
 import { playlists } from '@/data/playlists'
 import { subscriptions } from '@/data/subscriptions'
-import { ChevronDown, ChevronUp, Clapperboard, Clock, Flame, History, House, Library, Lightbulb, SquarePlay as PlaySquare, Repeat } from 'lucide-react'
+import { BookOpen, Brain, ChevronDown, ChevronUp, Clock, FlaskConical, History, House, Library, MessageSquare, SquarePlay as PlaySquare, Timer } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { Children, ElementType, useState } from 'react'
@@ -18,8 +18,8 @@ export function Sidebar() {
         className={`scrollbar-hidden sticky top-0 ml-1 flex flex-col overflow-y-auto ${isLargeOpen ? 'lg:hidden' : 'lg:flex'}`}
       >
         <SmallSidebarItem IconOrImgUrl={House} href='/' title='Home' />
-        <SmallSidebarItem IconOrImgUrl={Repeat} href='/shorts' title='Shorts' />
-        <SmallSidebarItem IconOrImgUrl={Clapperboard} href='/subscriptions' title='Subscriptions' />
+        <SmallSidebarItem IconOrImgUrl={Brain} href='/philosophy' title='Philosophy' />
+        <SmallSidebarItem IconOrImgUrl={MessageSquare} href='/conversations' title='Discussions' />
         <SmallSidebarItem IconOrImgUrl={Library} href='/library' title='Library' />
       </aside>
       {isSmallOpen && <div className='fixed inset-0 z-999 bg-black/50 lg:hidden' onClick={close} />}
@@ -31,13 +31,13 @@ export function Sidebar() {
         </div>
         <LargeSidebarSection>
           <LargeSidebarItem isActive IconOrImgUrl={House} href='/' title='Home' />
-          <LargeSidebarItem IconOrImgUrl={Clapperboard} href='/subscriptions' title='Subscriptions' />
+          <LargeSidebarItem IconOrImgUrl={MessageSquare} href='/conversations' title='Discussions' />
         </LargeSidebarSection>
         <Separator className='my-1' />
         <LargeSidebarSection visibleItemCount={5}>
           <LargeSidebarItem IconOrImgUrl={Library} href='/library' title='Library' />
-          <LargeSidebarItem IconOrImgUrl={History} href='/history' title='History' />
-          <LargeSidebarItem IconOrImgUrl={PlaySquare} href='/your-videos' title='Your Videos' />
+          <LargeSidebarItem IconOrImgUrl={History} href='/history' title='Watch History' />
+          <LargeSidebarItem IconOrImgUrl={PlaySquare} href='/your-videos' title='Your Uploads' />
           <LargeSidebarItem IconOrImgUrl={Clock} href='/playlist?list=WL' title='Watch Later' />
           {playlists.map((playlist) => (
             <LargeSidebarItem
@@ -49,21 +49,22 @@ export function Sidebar() {
           ))}
         </LargeSidebarSection>
         <Separator className='my-1' />
-        <LargeSidebarSection title='Subscriptions' visibleItemCount={3}>
+        <LargeSidebarSection title='Following' visibleItemCount={3}>
           {subscriptions.map((subscription) => (
             <LargeSidebarItem
               key={subscription.id}
               IconOrImgUrl={subscription.imgUrl}
-              href={`/playlist?list=${subscription.id}`}
+              href={`/channel/${subscription.id}`}
               title={subscription.channelName}
             />
           ))}
         </LargeSidebarSection>
         <Separator className='my-1' />
         <LargeSidebarSection title='Explore'>
-          <LargeSidebarItem IconOrImgUrl={Lightbulb} title='Mental Guardrails' href='/mental-guardrails' />
-          <LargeSidebarItem IconOrImgUrl={Flame} title='Productive Workflows' href='/productive-workflows' />
-          <LargeSidebarItem IconOrImgUrl={Library} title='Philosophy' href='/philosophy' />
+          <LargeSidebarItem IconOrImgUrl={Brain} title='Philosophy & Ethics' href='/?cat=Philosophy+%26+Ethics' />
+          <LargeSidebarItem IconOrImgUrl={FlaskConical} title='Science & Learning' href='/?cat=Science+%26+Learning' />
+          <LargeSidebarItem IconOrImgUrl={Timer} title='Productivity' href='/?cat=Productivity+Workflows' />
+          <LargeSidebarItem IconOrImgUrl={BookOpen} title='Book Clubs' href='/?cat=Book+Clubs+%26+Literature' />
         </LargeSidebarSection>
       </aside>
     </>
@@ -81,9 +82,9 @@ function SmallSidebarItem({ IconOrImgUrl, href, title }: SmallSidebarItemProps) 
     <Button asChild variant='ghost' className='mb-2 rounded-sm px-4 py-8'>
       <Link href={href} className='flex flex-col items-center justify-center'>
         {typeof IconOrImgUrl === 'string' ? (
-          <Image src={IconOrImgUrl} width={32} height={32} alt={title} className='rounded-full' />
+          <Image src={IconOrImgUrl} width={32} height={32} alt={title} className='rounded-full' unoptimized />
         ) : (
-          <IconOrImgUrl className='h-10 w-10' />
+          <IconOrImgUrl className='h-6 w-6' />
         )}
         <div className='text-xs'>{title}</div>
       </Link>
@@ -138,9 +139,9 @@ function LargeSidebarItem({ isActive = false, IconOrImgUrl, href, title }: Large
     >
       <Link href={href} className='flex w-full items-center justify-start'>
         {typeof IconOrImgUrl === 'string' ? (
-          <Image src={IconOrImgUrl} width={32} height={32} alt={title} className='rounded-full' />
+          <Image src={IconOrImgUrl} width={32} height={32} alt={title} className='rounded-full' unoptimized />
         ) : (
-          <IconOrImgUrl className='h-10 w-10' />
+          <IconOrImgUrl className='h-6 w-6' />
         )}
         <div className='overflow-hidden text-sm text-ellipsis whitespace-nowrap'>{title}</div>
       </Link>

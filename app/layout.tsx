@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'TylooTube',
+  title: 'HighTalk: Elevated Discussion',
   description:
-    'A modern YouTube clone built with Next.js 15, TailwindCSS and ShadCN, leveraging the latest web technologies to create a seamless video sharing and viewing experience.'
+    'A platform for intellectual discourse, creative exploration, and elevated conversation. Discover thoughtful content spanning philosophy, science, art, and beyond.'
 }
 
 export default function RootLayout({

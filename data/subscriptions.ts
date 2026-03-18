@@ -1,32 +1,32 @@
 export const subscriptions = [
   {
-    channelName: 'Fireship',
-    id: 'Fireship',
-    imgUrl: 'https://yt3.ggpht.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj'
+    channelName: 'Elevated Minds',
+    id: 'ElevatedMinds',
+    imgUrl: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
   },
   {
-    channelName: 'Caleb Curry',
-    id: 'CalebCurry',
-    imgUrl: 'https://yt3.ggpht.com/ytc/APkrFKbpSojje_-tkBQecNtFuPdSCrg3ZT0FhaYjln9k0g=s176-c-k-c0x00ffffff-no-rj'
+    channelName: 'Mind Science',
+    id: 'MindScience',
+    imgUrl: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
   },
   {
-    channelName: 'Web Dev Simplified',
-    id: 'WebDevSimplified',
-    imgUrl: 'https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj'
+    channelName: 'The Open Forum',
+    id: 'OpenForum',
+    imgUrl: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
   },
   {
-    channelName: 'Kevin Powell',
-    id: 'KevinPowell',
-    imgUrl: 'https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj'
+    channelName: 'Clarity Lab',
+    id: 'ClarityLab',
+    imgUrl: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
   },
   {
-    channelName: 'Sonny Sangha',
-    id: 'SonnySangha',
-    imgUrl: 'https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj'
+    channelName: 'Studio Sessions',
+    id: 'StudioSessions',
+    imgUrl: 'https://images.pexels.com/photos/1499327/pexels-photo-1499327.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
   },
   {
-    channelName: 'Traversy Media',
-    id: 'TraversyMedia',
-    imgUrl: 'https://yt3.ggpht.com/ytc/APkrFKYcYswt_UhD7D0j6ddiQz6Gb8Q_vSJOjhYI0CoXSw=s176-c-k-c0x00ffffff-no-rj-mo'
+    channelName: 'Pages & Perspectives',
+    id: 'PagesAndPerspectives',
+    imgUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
   }
 ]

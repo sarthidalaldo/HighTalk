@@ -1,338 +1,362 @@
 export const videos = [
   {
     id: '1',
-    title: 'CSS Anchor Is The Best New CSS Feature Since Flexbox',
+    title: 'The Philosophy of Flow States: Consciousness and Peak Performance',
     channel: {
-      name: 'Web Dev Simplified',
-      id: 'WebDevSimplified',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Elevated Minds',
+      id: 'ElevatedMinds',
+      profileUrl: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 222536,
-    postedAt: new Date('2023-08-29'),
-    duration: 938,
-    thumbnailUrl: 'https://i.ytimg.com/vi/B4Y9Ed4lLAI/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 387240,
+    postedAt: new Date('2024-01-12'),
+    duration: 3621,
+    thumbnailUrl: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Philosophy & Ethics'
   },
   {
     id: '2',
-    title: 'NEW Way To Create Variables In JavaScript',
+    title: 'Deep Focus Music Production Session: Lo-Fi Beat Making',
     channel: {
-      name: 'Web Dev Simplified',
-      id: 'WebDevSimplified',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Studio Sessions',
+      id: 'StudioSessions',
+      profileUrl: 'https://images.pexels.com/photos/1499327/pexels-photo-1499327.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 257136,
-    postedAt: new Date('2023-08-22'),
-    duration: 732,
-    thumbnailUrl: 'https://i.ytimg.com/vi/d6a8RymS1zI/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 512890,
+    postedAt: new Date('2024-02-03'),
+    duration: 5400,
+    thumbnailUrl: 'https://images.pexels.com/photos/164938/pexels-photo-164938.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Creative Arts'
   },
   {
     id: '3',
-    title: 'Front-end developer takes on a CSS battle',
+    title: 'Neuroscience of Creativity: How the Brain Generates Novel Ideas',
     channel: {
-      name: 'Kevin Powell',
-      id: 'KevinPowell',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Mind Science',
+      id: 'MindScience',
+      profileUrl: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 1232300,
-    postedAt: new Date('2023-10-05'),
-    duration: 120,
-    thumbnailUrl: 'https://i.ytimg.com/vi/eYPyIq5Y3Rk/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 1043200,
+    postedAt: new Date('2024-01-28'),
+    duration: 2847,
+    thumbnailUrl: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Science & Learning'
   },
   {
     id: '4',
-    title: 'Quick guide to CSS focus states',
+    title: 'Solving Algorithmic Problems with a Clear Head: LeetCode Deep Dive',
     channel: {
-      name: 'Kevin Powell',
-      id: 'KevinPowell',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Code & Cognition',
+      id: 'CodeCognition',
+      profileUrl: 'https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 112,
-    postedAt: new Date('2023-9-19'),
-    duration: 4343,
-    thumbnailUrl: 'https://i.ytimg.com/vi/apdD69J4bEc/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 234560,
+    postedAt: new Date('2024-02-15'),
+    duration: 7243,
+    thumbnailUrl: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Problem Solving'
   },
   {
     id: '5',
-    title: 'I Cannot Believe React Made A Hook For This',
+    title: 'Exploring Ethics: Is Moral Relativism Coherent?',
     channel: {
-      name: 'Web Dev Simplified',
-      id: 'WebDevSimplified',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Elevated Minds',
+      id: 'ElevatedMinds',
+      profileUrl: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 42345,
-    postedAt: new Date('2023-03-02'),
-    duration: 1000,
-    thumbnailUrl: 'https://i.ytimg.com/vi/M3mGY0pgFk0/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 198430,
+    postedAt: new Date('2024-01-05'),
+    duration: 4512,
+    thumbnailUrl: 'https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Philosophy & Ethics'
   },
   {
     id: '6',
-    title: 'I Got Laid Off...',
+    title: 'Late Night Conversation: Consciousness, Reality, and the Self',
     channel: {
-      name: 'Caleb Curry',
-      id: 'CalebCurry',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKbpSojje_-tkBQecNtFuPdSCrg3ZT0FhaYjln9k0g=s176-c-k-c0x00ffffff-no-rj'
+      name: 'The Open Forum',
+      id: 'OpenForum',
+      profileUrl: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 10340,
-    postedAt: new Date('2023-03-03'),
-    duration: 54,
-    thumbnailUrl: 'https://i.ytimg.com/vi/i2JVQdLnkAY/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 723100,
+    postedAt: new Date('2024-02-20'),
+    duration: 9823,
+    thumbnailUrl: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Deep Conversations'
   },
   {
     id: '7',
-    title: 'Tails OS in 100 Seconds',
+    title: 'My 4-Hour Deep Work Routine: How I Produce More by Working Less',
     channel: {
-      name: 'Fireship',
-      id: 'Fireship',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj'
+      name: 'Clarity Lab',
+      id: 'ClarityLab',
+      profileUrl: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 10323340,
-    postedAt: new Date('2023-08-09'),
-    duration: 100,
-    thumbnailUrl: 'https://i.ytimg.com/vi/mVKAyw0xqxw/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 2304500,
+    postedAt: new Date('2024-01-19'),
+    duration: 1843,
+    thumbnailUrl: 'https://images.pexels.com/photos/3243090/pexels-photo-3243090.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Productivity Workflows'
   },
   {
     id: '8',
-    title: 'Zig in 100 Seconds',
+    title: 'Guided Meditation for Mental Clarity and Creative Focus',
     channel: {
-      name: 'Fireship',
-      id: 'Fireship',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj'
+      name: 'Still Waters',
+      id: 'StillWaters',
+      profileUrl: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 20323340,
-    postedAt: new Date('2023-09-09'),
-    duration: 105,
-    thumbnailUrl: 'https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 1587340,
+    postedAt: new Date('2024-03-01'),
+    duration: 2400,
+    thumbnailUrl: 'https://images.pexels.com/photos/3822583/pexels-photo-3822583.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Mindfulness & Mental Health'
   },
   {
     id: '9',
-    title: 'CSS Anchor Is The Best New CSS Feature Since Flexbox',
+    title: 'Book Club: Examining "Thinking, Fast and Slow" by Daniel Kahneman',
     channel: {
-      name: 'Web Dev Simplified',
-      id: 'WebDevSimplified',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Pages & Perspectives',
+      id: 'PagesAndPerspectives',
+      profileUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 222536,
-    postedAt: new Date('2023-08-29'),
-    duration: 938,
-    thumbnailUrl: 'https://i.ytimg.com/vi/B4Y9Ed4lLAI/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 156780,
+    postedAt: new Date('2024-02-08'),
+    duration: 6731,
+    thumbnailUrl: 'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Book Clubs & Literature'
   },
   {
     id: '10',
-    title: 'NEW Way To Create Variables In JavaScript',
+    title: 'The Endocannabinoid System Explained: Science & Wellness Research',
     channel: {
-      name: 'Web Dev Simplified',
-      id: 'WebDevSimplified',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Mind Science',
+      id: 'MindScience',
+      profileUrl: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 257136,
-    postedAt: new Date('2023-08-22'),
-    duration: 732,
-    thumbnailUrl: 'https://i.ytimg.com/vi/d6a8RymS1zI/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 894210,
+    postedAt: new Date('2024-01-31'),
+    duration: 3200,
+    thumbnailUrl: 'https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Science & Learning'
   },
   {
     id: '11',
-    title: 'Front-end developer takes on a CSS battle',
+    title: 'Documentary: The History of Altered States in Human Culture',
     channel: {
-      name: 'Kevin Powell',
-      id: 'KevinPowell',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Depth Lens',
+      id: 'DepthLens',
+      profileUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 1232300,
-    postedAt: new Date('2023-10-05'),
-    duration: 120,
-    thumbnailUrl: 'https://i.ytimg.com/vi/eYPyIq5Y3Rk/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 2109870,
+    postedAt: new Date('2024-02-25'),
+    duration: 5412,
+    thumbnailUrl: 'https://images.pexels.com/photos/3354726/pexels-photo-3354726.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Documentary & Research'
   },
   {
     id: '12',
-    title: 'Quick guide to CSS focus states',
+    title: 'Watercolor Session: Painting Abstract Landscapes from Imagination',
     channel: {
-      name: 'Kevin Powell',
-      id: 'KevinPowell',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Studio Sessions',
+      id: 'StudioSessions',
+      profileUrl: 'https://images.pexels.com/photos/1499327/pexels-photo-1499327.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 112,
-    postedAt: new Date('2023-9-19'),
-    duration: 4343,
-    thumbnailUrl: 'https://i.ytimg.com/vi/apdD69J4bEc/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 312540,
+    postedAt: new Date('2024-03-05'),
+    duration: 4234,
+    thumbnailUrl: 'https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Creative Arts'
   },
   {
     id: '13',
-    title: 'I Cannot Believe React Made A Hook For This',
+    title: 'Stoicism vs. Existentialism: Which Framework Lives Better?',
     channel: {
-      name: 'Web Dev Simplified',
-      id: 'WebDevSimplified',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Elevated Minds',
+      id: 'ElevatedMinds',
+      profileUrl: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 42345,
-    postedAt: new Date('2023-03-02'),
-    duration: 1000,
-    thumbnailUrl: 'https://i.ytimg.com/vi/M3mGY0pgFk0/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 432100,
+    postedAt: new Date('2024-01-22'),
+    duration: 5120,
+    thumbnailUrl: 'https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Philosophy & Ethics'
   },
   {
     id: '14',
-    title: 'I Got Laid Off...',
+    title: 'Working Through Hard Math Problems: A Study Session',
     channel: {
-      name: 'Caleb Curry',
-      id: 'CalebCurry',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKbpSojje_-tkBQecNtFuPdSCrg3ZT0FhaYjln9k0g=s176-c-k-c0x00ffffff-no-rj'
+      name: 'Code & Cognition',
+      id: 'CodeCognition',
+      profileUrl: 'https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 10340,
-    postedAt: new Date('2023-03-03'),
-    duration: 54,
-    thumbnailUrl: 'https://i.ytimg.com/vi/i2JVQdLnkAY/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 178900,
+    postedAt: new Date('2024-02-12'),
+    duration: 10800,
+    thumbnailUrl: 'https://images.pexels.com/photos/6238297/pexels-photo-6238297.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Problem Solving'
   },
   {
     id: '15',
-    title: 'Tails OS in 100 Seconds',
+    title: 'Conversation with a Philosopher: Free Will, Determinism, and Agency',
     channel: {
-      name: 'Fireship',
-      id: 'Fireship',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj'
+      name: 'The Open Forum',
+      id: 'OpenForum',
+      profileUrl: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 10323340,
-    postedAt: new Date('2023-08-09'),
-    duration: 100,
-    thumbnailUrl: 'https://i.ytimg.com/vi/mVKAyw0xqxw/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 987600,
+    postedAt: new Date('2024-03-10'),
+    duration: 8234,
+    thumbnailUrl: 'https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Deep Conversations'
   },
   {
     id: '16',
-    title: 'Zig in 100 Seconds',
+    title: 'The Pomodoro Method Evolved: My Personal Productivity System',
     channel: {
-      name: 'Fireship',
-      id: 'Fireship',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj'
+      name: 'Clarity Lab',
+      id: 'ClarityLab',
+      profileUrl: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 20323340,
-    postedAt: new Date('2023-09-09'),
-    duration: 105,
-    thumbnailUrl: 'https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 1432780,
+    postedAt: new Date('2024-02-28'),
+    duration: 1523,
+    thumbnailUrl: 'https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Productivity Workflows'
   },
   {
     id: '17',
-    title: 'CSS Anchor Is The Best New CSS Feature Since Flexbox',
+    title: 'Anxiety, Mindfulness, and the Science of Presence',
     channel: {
-      name: 'Web Dev Simplified',
-      id: 'WebDevSimplified',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Still Waters',
+      id: 'StillWaters',
+      profileUrl: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 222536,
-    postedAt: new Date('2023-08-29'),
-    duration: 938,
-    thumbnailUrl: 'https://i.ytimg.com/vi/B4Y9Ed4lLAI/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 2198430,
+    postedAt: new Date('2024-01-14'),
+    duration: 3801,
+    thumbnailUrl: 'https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Mindfulness & Mental Health'
   },
   {
     id: '18',
-    title: 'NEW Way To Create Variables In JavaScript',
+    title: 'Literary Analysis: Camus and the Philosophy of the Absurd',
     channel: {
-      name: 'Web Dev Simplified',
-      id: 'WebDevSimplified',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Pages & Perspectives',
+      id: 'PagesAndPerspectives',
+      profileUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 257136,
-    postedAt: new Date('2023-08-22'),
-    duration: 732,
-    thumbnailUrl: 'https://i.ytimg.com/vi/d6a8RymS1zI/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 234120,
+    postedAt: new Date('2024-03-03'),
+    duration: 4567,
+    thumbnailUrl: 'https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Book Clubs & Literature'
   },
   {
     id: '19',
-    title: 'Front-end developer takes on a CSS battle',
+    title: 'Research Review: Cognitive Enhancement and Mental Performance',
     channel: {
-      name: 'Kevin Powell',
-      id: 'KevinPowell',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Depth Lens',
+      id: 'DepthLens',
+      profileUrl: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 1232300,
-    postedAt: new Date('2023-10-05'),
-    duration: 120,
-    thumbnailUrl: 'https://i.ytimg.com/vi/eYPyIq5Y3Rk/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 678920,
+    postedAt: new Date('2024-02-17'),
+    duration: 6122,
+    thumbnailUrl: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Documentary & Research'
   },
   {
     id: '20',
-    title: 'Quick guide to CSS focus states',
+    title: 'Improvised Jazz: Writing and Playing Without a Plan',
     channel: {
-      name: 'Kevin Powell',
-      id: 'KevinPowell',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Studio Sessions',
+      id: 'StudioSessions',
+      profileUrl: 'https://images.pexels.com/photos/1499327/pexels-photo-1499327.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 112,
-    postedAt: new Date('2023-9-19'),
-    duration: 4343,
-    thumbnailUrl: 'https://i.ytimg.com/vi/apdD69J4bEc/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 456780,
+    postedAt: new Date('2024-01-08'),
+    duration: 3456,
+    thumbnailUrl: 'https://images.pexels.com/photos/1751731/pexels-photo-1751731.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Creative Arts'
   },
   {
     id: '21',
-    title: 'I Cannot Believe React Made A Hook For This',
+    title: 'The Hard Problem of Consciousness: Chalmers vs. Dennett',
     channel: {
-      name: 'Web Dev Simplified',
-      id: 'WebDevSimplified',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj'
+      name: 'Elevated Minds',
+      id: 'ElevatedMinds',
+      profileUrl: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 42345,
-    postedAt: new Date('2023-03-02'),
-    duration: 1000,
-    thumbnailUrl: 'https://i.ytimg.com/vi/M3mGY0pgFk0/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 543210,
+    postedAt: new Date('2024-03-08'),
+    duration: 5890,
+    thumbnailUrl: 'https://images.pexels.com/photos/2694037/pexels-photo-2694037.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Philosophy & Ethics'
   },
   {
     id: '22',
-    title: 'I Got Laid Off...',
+    title: 'Building a Rust CLI Tool from Scratch: Problem Solving Session',
     channel: {
-      name: 'Caleb Curry',
-      id: 'CalebCurry',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKbpSojje_-tkBQecNtFuPdSCrg3ZT0FhaYjln9k0g=s176-c-k-c0x00ffffff-no-rj'
+      name: 'Code & Cognition',
+      id: 'CodeCognition',
+      profileUrl: 'https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 10340,
-    postedAt: new Date('2023-03-03'),
-    duration: 54,
-    thumbnailUrl: 'https://i.ytimg.com/vi/i2JVQdLnkAY/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 321540,
+    postedAt: new Date('2024-01-25'),
+    duration: 8901,
+    thumbnailUrl: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Problem Solving'
   },
   {
     id: '23',
-    title: 'Tails OS in 100 Seconds',
+    title: 'Is Psychedelics Research Changing Mental Health Treatment?',
     channel: {
-      name: 'Fireship',
-      id: 'Fireship',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj'
+      name: 'Mind Science',
+      id: 'MindScience',
+      profileUrl: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 10323340,
-    postedAt: new Date('2023-08-09'),
-    duration: 100,
-    thumbnailUrl: 'https://i.ytimg.com/vi/mVKAyw0xqxw/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 1876540,
+    postedAt: new Date('2024-02-22'),
+    duration: 4123,
+    thumbnailUrl: 'https://images.pexels.com/photos/3825527/pexels-photo-3825527.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Science & Learning'
   },
   {
     id: '24',
-    title: 'Zig in 100 Seconds',
+    title: 'Hour 3 of Writing My Novel: A Live Creative Session',
     channel: {
-      name: 'Fireship',
-      id: 'Fireship',
-      profileUrl: 'https://yt3.ggpht.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj'
+      name: 'Pages & Perspectives',
+      id: 'PagesAndPerspectives',
+      profileUrl: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=48&h=48&fit=crop'
     },
-    views: 20323340,
-    postedAt: new Date('2023-09-09'),
-    duration: 105,
-    thumbnailUrl: 'https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg',
-    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+    views: 213450,
+    postedAt: new Date('2024-03-12'),
+    duration: 12340,
+    thumbnailUrl: 'https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&w=640',
+    videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
+    category: 'Creative Arts'
   }
 ]
